@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaydeeWallet | Your Trusted Payment Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        paydeeBlue: '#1e3a8a', // Deep Corporate Navy
+                        paydeeLight: '#f3f4f6'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <nav class="flex justify-between items-center py-6 px-10 bg-white shadow-sm border-b-2 border-paydeeBlue/10">
+        <div class="text-2xl font-bold text-paydeeBlue tracking-tight">PaydeeWallet</div>
+        <div class="space-x-8 font-medium text-gray-600 hidden md:block">
+            <a href="#" class="hover:text-paydeeBlue">Personal</a>
+            <a href="#" class="hover:text-paydeeBlue">Business</a>
+            <a href="#" class="hover:text-paydeeBlue">Help</a>
+        </div>
+        <div class="space-x-4">
+            <button class="text-paydeeBlue font-medium">Login</button>
+            <button class="bg-paydeeBlue text-white px-6 py-2 rounded-lg font-semibold hover:bg-blue-800 transition">Get Started</button>
+        </div>
+    </nav>
+
+    <header class="py-20 px-10 text-center bg-white">
+        <h1 class="text-5xl font-bold mb-6 text-paydeeBlue">Seamless Payments for a Modern Malaysia</h1>
+        <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">Secure, fast, and effortless transactions. Join thousands who trust PaydeeWallet for their daily financial needs.</p>
+        <button class="bg-paydeeBlue text-white px-8 py-4 rounded-xl text-lg font-semibold hover:bg-blue-800 shadow-lg transition">Download the App</button>
+    </header>
+
+    <section class="py-16 px-10">
+        <div class="grid md:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <div class="p-6 bg-white border-t-4 border-paydeeBlue rounded-xl shadow-sm">
+                <div class="text-3xl mb-4">🛡️</div>
+                <h3 class="font-bold mb-2 text-paydeeBlue">Bank-Grade Security</h3>
+                <p class="text-sm text-gray-600">Advanced encryption and multi-factor authentication.</p>
+            </div>
+            <div class="p-6 bg-white border-t-4 border-paydeeBlue rounded-xl shadow-sm">
+                <div class="text-3xl mb-4">⚡</div>
+                <h3 class="font-bold mb-2 text-paydeeBlue">Instant Transfers</h3>
+                <p class="text-sm text-gray-600">Send and receive money instantly across any bank.</p>
+            </div>
+            <div class="p-6 bg-white border-t-4 border-paydeeBlue rounded-xl shadow-sm">
+                <div class="text-3xl mb-4">📱</div>
+                <h3 class="font-bold mb-2 text-paydeeBlue">Pay by QR</h3>
+                <p class="text-sm text-gray-600">Fast, contactless payments at merchants nationwide.</p>
+            </div>
+            <div class="p-6 bg-white border-t-4 border-paydeeBlue rounded-xl shadow-sm">
+                <div class="text-3xl mb-4">📈</div>
+                <h3 class="font-bold mb-2 text-paydeeBlue">Smart Spending</h3>
+                <p class="text-sm text-gray-600">Real-time insights to track your budget effortlessly.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 px-10 border-t bg-gray-100">
+        <div class="text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Paydee Sdn Bhd. All rights reserved.</p>
+            <p class="mt-2 text-xs uppercase tracking-widest">Regulated by Bank Negara Malaysia</p>
+        </div>
+    </footer>
+
+</body>
+</html>

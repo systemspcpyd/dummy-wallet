@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/payment/:path*", "destination": "/api/payment/[[...slug]]" }
+  ]
+}
